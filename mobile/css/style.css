@@ -13,6 +13,9 @@
 	width:10%;
 	padding-left:5%;
 	}
+#text1{
+	margin-top:2.3%;
+	}
 #m1_2{
 	width:27%;
 	padding-left:2%;
@@ -46,15 +49,18 @@
 	/*background-color:#FCF;*/
 	width:70%;
 	}
+#select1{
+	width:88%;
+	}
 #m4_1{
 	/*background-color:#99F;*/
-	margin-top:150px;
-	height:870px;
+	margin-top:11%;
+	height:795px;
 	background-image:url(../images/f1.svg);
 	background-repeat:no-repeat;
-	margin-left:96px;
+	margin-left:7.2%;/*70px;*/
 	font-size:xx-large;
-	padding-top:5%;
+	padding-top:4%;
 	padding-left:14%;
 	}
 #m5_1,#m6_1,#m7_1,#m8_1{
@@ -83,7 +89,7 @@
 	height:302.48px;
 	background-image:url(../images/f2.svg);
 	background-repeat:no-repeat;
-	margin-left:96px;
+	margin-left:7.2%;
 	font-size:xx-large;
 	padding-top:5%;
 	padding-left:14%;
@@ -93,7 +99,7 @@
 	margin-top:2%;
 	background-image:url(../images/f3.svg);
 	background-repeat:no-repeat;
-	margin-left:96px;
+	margin-left:7.2%;
 	font-size:xx-large;
 	padding-top:5%;
 	padding-left:14%;
@@ -106,7 +112,7 @@
 	margin-top:2%;
 	background-image:url(../images/f4.svg);
 	background-repeat:no-repeat;
-	margin-left:96px;
+	margin-left:7.2%;
 	font-size:xx-large;
 	padding-top:5%;
 	padding-left:14%;
@@ -119,7 +125,7 @@
 	margin-top:2%;
 	background-image:url(../images/f5.svg);
 	background-repeat:no-repeat;
-	margin-left:96px;
+	margin-left:7.2%;
 	font-size:xx-large;
 	padding-top:5%;
 	padding-left:14%;
@@ -132,14 +138,14 @@
 	margin-top:2%;
 	background-image:url(../images/f6.svg);
 	background-repeat:no-repeat;
-	margin-left:96px;
+	margin-left:7.2%;
 	font-size:xx-large;
 	padding-top:5%;
 	padding-left:14%;
-	height:92%;
 	padding-top:2%;
 	padding-bottom:0.2%;
 	font-weight:bold;
+	height:630px;
 	}
 #image0{
 	margin-top:8px;
@@ -157,7 +163,6 @@ select{
 
   /*改變右邊箭頭樣式*/
   background: url("../images/arrow.svg") no-repeat right center transparent;
-  width:62px;
   border-radius:5px;
   border-width:2px;
 	}
