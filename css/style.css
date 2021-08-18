@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+#b1{
+	/*background-color:#FF0;*/
+	height:62px;
+	}
+.b1{
+	float:left;
+	display:inline;
+	height:62px;
+	font-family:"微軟正黑體";
+	}
+#b1_1{
+	width:87px;
+	/*background-color:#FFF;*/
+	text-align:right;
+	padding-right:5px;
+	}
+#b1_2{
+	color:#F00;
+	font-weight:bold;
+	font-size:36px;
+	padding-top:15px;
+	width:150px;
+	height:47px;
+	}
+#b1_3{
+	font-size:18px;
+	padding-top:35px;
+	height:27px;
+	width:80px;
+	}
+#b1_4{
+	width:120px;
+	/*background-color:#F3F;*/
+	}
+#b1_5{
+	width:115px;
+	}
+#b1_5_1{
+	height:50%;
+	}	
+#b1_5_2{
+	/*background-color:#999;*/
+	height:31px;
+	padding-top:7px;
+	font-size:18px;
+	}
+#b1_6{
+	width:130px;
+	}
+#b1_6_1{
+	height:50%;
+	}	
+#b1_6_2{
+	/*background-color:#CCC;*/
+	height:31px;
+	padding-top:7px;
+	font-size:18px;
+	}
+#b1_7{
+	width:130px;
+	}
+#b1_7_1{
+	height:50%;
+	}	
+#b1_7_2{
+	/*background-color:#FFC;*/
+	height:31px;
+	padding-top:7px;
+	font-size:18px;
+	}
+#b1_8{
+	width:130px;
+	}
+#b1_8_1{
+	height:50%;
+	}	
+#b1_8_2{
+	/*background-color:#FCF;*/
+	height:31px;
+	padding-top:7px;
+	font-size:18px;
+	}
+#b1_9{
+	width:130px;
+	}
+#b1_9_1{
+	height:50%;
+	}	
+#b1_9_2{
+	/*background-color:#FC9;*/
+	height:31px;
+	padding-top:7px;
+	font-size:18px;
+	}
+#b1_10{
+	width:175px;
+	font-size:15px;
+	/*background-color:#F0F;*/
+	text-align:right;
+	padding-top:22px;
+	padding-right:20px;
+	height:40px;
+	}
+#icon1,#icon2,#icon3,#icon4,#icon5{
+	vertical-align:middle;
+	margin-top:-4px;
+	margin-left:10px;
+	margin-right:10px;
+	}
+#out{
+	font-size:18px;
+	}
+#b2{
+	/*background-color:#F0F;*/
+	}
+#b3{
+	/*background-color:#FC9;*/
+	}
+#b3_1{
+	width:756px;
+	/*background-color:#F0F;*/
+	}
+#b3_1_1{
+	/*background-color:#C0F;*/
+	padding-left:20px;
+	padding-top:18px;
+	padding-bottom:18px;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFC20E;
+	}	
+#b3_1_2{
+	/*background-color:#666;*/
+	font-size:18px;
+	font-weight:bold;
+	padding-left:20px;
+	padding-bottom:18px;
+	}
+#b3_1_3{	
+	/*background-color:#960;*/
+	}
+#b3_1_4{	
+	/*background-color:#CCC;*/
+	text-align:right;
+	padding-right:15px;
+	}
+#b3_2{
+	width:550px;
+	/*background-color:#CCC;*/
+	}
+#b3_2_1{
+	width:100%;
+	height:75px;
+	/*background-color:#FFC;*/
+	text-align:right;
+	padding-top:20px;
+	}
+#b3_2_2{
+	width:460px;
+	height:390px;
+	background-image:url(../images/t1.png);
+	background-repeat:no-repeat;
+	margin-left:27px;
+	padding-left:74px;
+	padding-top:27px;
+	}
+#b3_2_2_1{
+	padding-top:20px;
+	padding-bottom:24px;
+	}
+.b3{
+	height:auto;
+	float:left;
+	display:inline;
+	font-family:"微軟正黑體";
+	}
+#b4_1{
+	width:968px;
+	/*background-color:#FF9;*/
+	}
+#b4_1_1,#b4_1_3{
+	/*background-color:#FF0;*/
+	padding-left:20px;
+	font-size:18px;
+	padding-top:80px;
+	}
+#b4_1_2,#b4_1_4{
+	/*background-color:#C9F;*/
+	text-align:right;
+	}
+#b4_2{
+	width:338px;
+	/*background-color:#F0F;*/
+	}
+#b4_2_1{
+	/*background-color:#C90;*/
+	}
+#b4_2_2{
+	/*background-color:#FFF;*/
+	}
+#b4_2_3{
+	/*background-color:#F09;*/
+	}
+#b4_2_4{
+	/*background-color:#90F;*/
+	}
+#b5{
+	/*background-color:#CCC;*/
+	width:1320px;
+	height:1070px;
+	}
+#b5_1{
+	/*background-color:#F0F;*/
+	}
+#b6{
+	/*background-color:#FC0;*/
+	width:1320px;
+	}
+#b7{
+	/*background-color:#FC0;*/
+	width:1320px;
+	margin-top:10px;
+	}
+.b_f{
+	background-image:url(../images/t2.png);
+	background-repeat:no-repeat;
+	margin-left:20px;
+	height:292px;
+	font-size:18px;
+	padding-top:20px;
+	padding-left:20px;
+	}
+.f_text{
+	background-image:url(../images/f.png);
+	margin-left:20px;margin-top:20px;
+	height:96px;
+	background-repeat:no-repeat;
+	font-size:18px;
+	padding-top:20px;
+	padding-left:50px;
+	}
+hr{
+	margin-left:-5px;
+	}
+#table1{
+	margin-left:20px;
+	}
+#c1,#c2{
+	width:215px;
+	}
+#r{
+	/*background-color:#F5EE47;*/
+	}
+td{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	}
+select{
+	border-radius:4px;
+	}
+#table2 tr{
+	height:3px;
+	}
+.t_new{
+	padding-top:20px;
+	}
+.imgaes{
+	margin-left:10px;
+	}
+a{
+	text-decoration:underline;
+	}
+.table3{
+	font-size:16px;
+	margin-top:8px;
+	}
+select{
+  /*移除箭頭樣式*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+
+  /*改變右邊箭頭樣式*/
+  background: url("../images/arrow.png") no-repeat right center transparent;
+  width:62px;
+	}
