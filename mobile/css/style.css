@@ -43,10 +43,12 @@
 	}
 #m3_1{
 	/*background-color:#FFC;*/
+	margin-top:0.5%;
 	width:30%;
 	}
 #m3_2{
 	/*background-color:#FCF;*/
+	margin-top:0.5%;
 	width:70%;
 	}
 #select1{
@@ -57,7 +59,7 @@
 	}
 #m4_1{
 	/*background-color:#99F;*/
-	margin-top:11%;
+	margin-top:12%;
 	height:795px;
 	background-image:url(../images/f1.svg);
 	background-repeat:no-repeat;
