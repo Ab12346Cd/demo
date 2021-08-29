@@ -4,8 +4,8 @@
 	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
 	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
 ]>
-<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="38.264" height="43.62"
-	 viewBox="0 0 38.264 43.62" overflow="visible" enable-background="new 0 0 38.264 43.62" xml:space="preserve">
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="49" height="55.859" viewBox="0 0 49 55.859"
+	 overflow="visible" enable-background="new 0 0 49 55.859" xml:space="preserve">
 <image width="1200" height="1368" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAVYCAYAAAC3QSGUAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAA
 B3RJTUUH4QsWEBgAjVNg/AAAgABJREFUeNrs3Xd4VFX+x/H3mUmlphCqQChJKDbERhEbKGACNlg7
@@ -3413,6 +3413,6 @@ QF6IB6Qt2ad1s0RERERqnmZgiYiIiPSRTWGtOT/s8Tj4gZJXIiIiIv3odykEIiIiIn3nTtDWwjx3
 Uus4pCWeZKIZBUVLREREpG80A0tERESkH8wIw5AL13PIBUpeiYiIiPSzz6UQiIiIiPSPZxmadx4G
 Gt/xV+3t9ew5bhyrFSURERERERERERERERERERERERERERERGXz/DxAjBsUKtOVfAAAAJXRFWHRk
 YXRlOmNyZWF0ZQAyMDE3LTExLTIyVDE2OjI0OjAwKzAwOjAwktRIJQAAACV0RVh0ZGF0ZTptb2Rp
-ZnkAMjAxNy0xMS0yMlQxNjoyNDowMCswMDowMOOJ8JkAAAAASUVORK5CYII=" transform="matrix(0.0319 0 0 0.0319 0 0)">
+ZnkAMjAxNy0xMS0yMlQxNjoyNDowMCswMDowMOOJ8JkAAAAASUVORK5CYII=" transform="matrix(0.0408 0 0 0.0408 0 0)">
 </image>
 </svg>

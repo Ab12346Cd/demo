@@ -4,11 +4,11 @@
 	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
 	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
 ]>
-<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="33.883" height="31.667"
-	 viewBox="0 0 33.883 31.667" overflow="visible" enable-background="new 0 0 33.883 31.667" xml:space="preserve">
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="90" height="84.113" viewBox="0 0 90 84.113"
+	 overflow="visible" enable-background="new 0 0 90 84.113" xml:space="preserve">
 <g>
-	<rect width="33.883" height="6.65"/>
-	<rect y="12.35" width="33.883" height="6.65"/>
-	<rect y="25.017" width="33.883" height="6.65"/>
+	<rect fill="#010101" width="90" height="17.663"/>
+	<rect y="32.803" fill="#010101" width="90" height="17.663"/>
+	<rect y="66.449" fill="#010101" width="90" height="17.664"/>
 </g>
 </svg>

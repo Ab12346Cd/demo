@@ -2,7 +2,7 @@
 /* CSS Document */
 #b1{
 	/*background-color:#FF0;*/
-	height:62px;
+	height:68px;
 	}
 .b1{
 	float:left;
@@ -41,10 +41,14 @@
 	height:50%;
 	}	
 #b1_5_2{
-	/*background-color:#999;*/
 	height:31px;
 	padding-top:7px;
 	font-size:18px;
+	}
+.b1_5_2{
+	background-color:#FFC20E;
+	color:#FFF;
+	font-weight:bold;
 	}
 #b1_6{
 	width:130px;
@@ -95,12 +99,13 @@
 	font-size:18px;
 	}
 #b1_10{
-	width:175px;
+	width:195px;
 	font-size:15px;
 	/*background-color:#F0F;*/
-	text-align:right;
+	text-align:left;
 	padding-top:22px;
-	padding-right:20px;
+	padding-left:12px;
+	padding-right:12px;
 	height:40px;
 	}
 #icon1,#icon2,#icon3,#icon4,#icon5{
@@ -114,6 +119,49 @@
 	}
 #b2{
 	/*background-color:#F0F;*/
+	width:1348px;
+	height:442px;
+	background-image:url(../images/banner.jpg);
+	margin-left:-7px;
+	}
+#b2_icon1_cover{
+	width:290px;
+	height:31px;
+	background-color:#FFC20E;
+	padding-top:7px;
+	font-size:18px;
+	color:#FFF;
+	margin-left:442px;
+	}
+#b2_1{
+	width:70px;
+	text-align:center;
+	}
+#b2_3{
+	width:105px;
+	text-align:center;
+	}
+#b2_5{
+	width:105px;
+	text-align:center;
+	}
+#b2_change{
+	/*background-color:#CCC;*/
+	height:50px;
+	width:1000px;
+	margin-top:340px;
+	}
+#change_1{
+	padding-top:15px;
+	margin-left:625px;
+	}
+#change_2,#change_3{
+	padding-top:15px;
+	}
+#change_s{
+	/*background-color:#666;*/
+	width:10px;
+	height:50px;
 	}
 #b3{
 	/*background-color:#FC9;*/
@@ -160,7 +208,7 @@
 #b3_2_2{
 	width:460px;
 	height:390px;
-	background-image:url(../images/t1.png);
+	background-image:url(../images/t1.svg);
 	background-repeat:no-repeat;
 	margin-left:27px;
 	padding-left:74px;
@@ -224,7 +272,7 @@
 	margin-top:10px;
 	}
 .b_f{
-	background-image:url(../images/t2.png);
+	background-image:url(../images/t2.svg);
 	background-repeat:no-repeat;
 	margin-left:20px;
 	height:292px;
@@ -233,7 +281,7 @@
 	padding-left:20px;
 	}
 .f_text{
-	background-image:url(../images/f.png);
+	background-image:url(../images/f.svg);
 	margin-left:20px;margin-top:20px;
 	height:96px;
 	background-repeat:no-repeat;
@@ -272,6 +320,7 @@ select{
 	}
 a{
 	text-decoration:underline;
+	color:#FFF;
 	}
 .table3{
 	font-size:16px;
@@ -284,6 +333,6 @@ select{
   -webkit-appearance:none;
 
   /*改變右邊箭頭樣式*/
-  background: url("../images/arrow.png") no-repeat right center transparent;
+  background: url("../images/arrow.svg") no-repeat right center transparent;
   width:62px;
 	}
