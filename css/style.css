@@ -1,8 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
+#container{
+	width:1340px;
+	margin:auto;
+	}
 #b1{
 	/*background-color:#FF0;*/
 	height:68px;
+	width:1330px;
+	margin-left:-7px;
 	}
 .b1{
 	float:left;
@@ -11,7 +17,7 @@
 	font-family:"微軟正黑體";
 	}
 #b1_1{
-	width:87px;
+	width:70px;
 	/*background-color:#FFF;*/
 	text-align:right;
 	padding-right:5px;
@@ -31,7 +37,7 @@
 	width:80px;
 	}
 #b1_4{
-	width:120px;
+	width:0px;
 	/*background-color:#F3F;*/
 	}
 #b1_5{
@@ -74,6 +80,12 @@
 	padding-top:7px;
 	font-size:18px;
 	}
+#icon3,#icon4,#icon5,#icon3_c,#icon4_c,#icon5_c{
+	vertical-align:middle;
+	margin-top:-4px;
+	margin-left:4px;
+	margin-right:10px;
+	}
 #b1_8{
 	width:130px;
 	}
@@ -93,12 +105,30 @@
 	height:50%;
 	}	
 #b1_9_2{
-	/*background-color:#FC9;*/
+	/*background-color:#FF9;*/
 	height:31px;
 	padding-top:7px;
 	font-size:18px;
 	}
 #b1_10{
+	width:130px;
+	}
+#b1_10_1{
+	height:50%;
+	}	
+#b1_10_2{
+	/*background-color:#FC9;*/
+	height:31px;
+	padding-top:7px;
+	font-size:18px;
+	}
+#icon6,#icon6_c{
+	vertical-align:middle;
+	margin-top:-4px;
+	margin-left:8px;
+	margin-right:6px;
+	}
+#b1_11{
 	width:195px;
 	font-size:15px;
 	/*background-color:#F0F;*/
@@ -108,7 +138,7 @@
 	padding-right:12px;
 	height:40px;
 	}
-#icon1,#icon2,#icon3,#icon4,#icon5{
+#icon1,#icon2,#icon1_c,#icon2_c{
 	vertical-align:middle;
 	margin-top:-4px;
 	margin-left:10px;
@@ -119,7 +149,7 @@
 	}
 #b2{
 	/*background-color:#F0F;*/
-	width:1348px;
+	width:1343px;
 	height:442px;
 	background-image:url(../images/banner.jpg);
 	margin-left:-7px;
@@ -131,17 +161,99 @@
 	padding-top:7px;
 	font-size:18px;
 	color:#FFF;
-	margin-left:442px;
+	margin-left:305px;
+	margin-top:-18px;
+	cursor:pointer;
 	}
-#b2_1{
+#b21_1{
 	width:70px;
 	text-align:center;
 	}
-#b2_3{
+#b21_3{
 	width:105px;
 	text-align:center;
 	}
-#b2_5{
+#b21_5{
+	width:105px;
+	text-align:center;
+	}
+#b2_icon2_cover{
+	width:310px;
+	height:31px;
+	background-color:#FFC20E;
+	padding-top:7px;
+	font-size:18px;
+	color:#FFF;
+	margin-left:420px;
+	margin-top:-18px;
+	cursor:pointer;
+	}
+#b22_1{
+	width:145px;
+	text-align:center;
+	}
+#b22_3{
+	width:160px;
+	text-align:center;
+	}
+#b2_icon3_cover{
+	width:310px;
+	height:31px;
+	background-color:#FFC20E;
+	padding-top:7px;
+	font-size:18px;
+	color:#FFF;
+	margin-left:550px;
+	margin-top:-18px;
+	cursor:pointer;
+	}
+#b23_1{
+	width:145px;
+	text-align:center;
+	}
+#b23_3{
+	width:160px;
+	text-align:center;
+	}
+#b2_icon4_cover{
+	width:690px;
+	height:31px;
+	background-color:#FFC20E;
+	padding-top:7px;
+	font-size:18px;
+	color:#FFF;
+	margin-left:250px;
+	margin-top:-18px;
+	cursor:pointer;
+	}
+#b24_1{
+	width:175px;
+	text-align:center;
+	}
+#b24_3,#b24_5{
+	width:105px;
+	text-align:center;
+	}
+#b24_7,#b24_9{
+	width:140px;
+	text-align:center;
+	}
+#b2_icon5_cover{
+	width:235px;
+	height:31px;
+	background-color:#FFC20E;
+	padding-top:7px;
+	font-size:18px;
+	color:#FFF;
+	margin-left:940px;
+	margin-top:-18px;
+	cursor:pointer;
+	}
+#b25_1{
+	width:125px;
+	text-align:center;
+	}
+#b25_3{
 	width:105px;
 	text-align:center;
 	}
@@ -165,6 +277,7 @@
 	}
 #b3{
 	/*background-color:#FC9;*/
+	width:1335px;
 	}
 #b3_1{
 	width:756px;
@@ -199,14 +312,14 @@
 	/*background-color:#CCC;*/
 	}
 #b3_2_1{
-	width:100%;
+	width:550px;
 	height:75px;
 	/*background-color:#FFC;*/
 	text-align:right;
 	padding-top:20px;
 	}
 #b3_2_2{
-	width:460px;
+	width:450px;
 	height:390px;
 	background-image:url(../images/t1.svg);
 	background-repeat:no-repeat;
@@ -327,12 +440,24 @@ a{
 	margin-top:8px;
 	}
 select{
-  /*移除箭頭樣式*/
-  appearance:none;
-  -moz-appearance:none;
-  -webkit-appearance:none;
+    /*移除箭頭樣式*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
 
-  /*改變右邊箭頭樣式*/
-  background: url("../images/arrow.svg") no-repeat right center transparent;
-  width:62px;
+    /*改變右邊箭頭樣式*/
+    background: url("../images/arrow.svg") no-repeat right center transparent;
+    width:62px;
+	}
+.subnavbtn:hover {
+  background-color:#FFC20E;
+  cursor:pointer;
+  color:#FFF;
+  font-weight:bold;
+}
+.show{
+	display:display;
+	}
+.hidden{
+	display:none;
 	}

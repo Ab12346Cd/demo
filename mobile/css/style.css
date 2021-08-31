@@ -154,11 +154,13 @@
 #image1{
 	margin-left:25%;
 	margin-top:5%;
+	display:block;
 	}
 #s_menu{
 	height:216px;
 	width:92%;
-	/*display:none;*/
+	display:none;
+	margin-top:13px;
 	}
 ul li{
 	border-bottom:1px solid #ddd;
@@ -176,20 +178,20 @@ ul li{
 	border-bottom:1px solid #000;
 	}
 #select1{
-  width:88%;
-  height:80px;
-  margin-top:14px;
-  border-radius:15px;
+    width:88%;
+    height:80px;
+    margin-top:14px;
+    border-radius:15px;
   
-  /*移除箭頭樣式*/
-  appearance:none;
-  -moz-appearance:none;
-  -webkit-appearance:none;
+    /*移除箭頭樣式*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
 
-  /*改變右邊箭頭樣式*/
-  background: url("../images/arrow.svg") no-repeat right center transparent;
-  border-radius:5px;
-  border-width:2px;
+    /*改變右邊箭頭樣式*/
+    background: url("../images/arrow.svg") no-repeat right center transparent;
+    border-radius:5px;
+    border-width:2px;
 	}
 tr{
 	height:70px;
