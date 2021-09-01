@@ -4,6 +4,13 @@ var b1_6_2 = document.querySelector("#b1_6_2");
 var b1_7_2 = document.querySelector("#b1_7_2");
 var b1_9_2 = document.querySelector("#b1_9_2");
 var b1_10_2 = document.querySelector("#b1_10_2");
+var change_1 = document.querySelector("#change_1");
+var change_2 = document.querySelector("#change_2");
+var change_3 = document.querySelector("#change_3");
+var c_1 = document.querySelector("#c_1");
+var c_2 = document.querySelector("#c_2");
+var c_3 = document.querySelector("#c_3");
+var b2 = document.querySelector("#b2");
 var b2_icon1_cover = document.querySelector("#b2_icon1_cover");
 var b2_icon2_cover = document.querySelector("#b2_icon2_cover");
 var b2_icon3_cover = document.querySelector("#b2_icon3_cover");
@@ -50,6 +57,9 @@ b1_10_2.addEventListener("mouseover", mOver_b1_10_2, false);
 b2_icon5_cover.addEventListener("mouseover", mOver_b1_10_2, false);
 b1_10_2.addEventListener("mouseout", mOut_b1_10_2, false);
 b2_icon5_cover.addEventListener("mouseout", mOut_b1_10_2, false);
+change_1.addEventListener("click", click_c1, false);
+change_2.addEventListener("click", click_c2, false);
+change_3.addEventListener("click", click_c3, false);
 
 function mOver_b1_5_2() {
    icon1.classList.add("hidden");
@@ -151,3 +161,39 @@ function mOut_b1_10_2() {
    b2_change.setAttribute("style","margin-top:340px;");
    b1_10_2.removeAttribute("style");
 }
+function click_c1(){
+	c_1.removeAttribute("src");
+	c_1.setAttribute("src","images/c.svg");
+	c_2.removeAttribute("src");
+	c_2.setAttribute("src","images/c_o.svg");
+	c_3.removeAttribute("src");
+	c_3.setAttribute("src","images/c_o.svg");
+	b2.removeAttribute("style");
+	b2.setAttribute("style","background-image:url(images/banner.jpg);");
+	}
+function click_c2(){
+	c_1.removeAttribute("src");
+	c_1.setAttribute("src","images/c_o.svg");
+	c_2.removeAttribute("src");
+	c_2.setAttribute("src","images/c.svg");
+	c_3.removeAttribute("src");
+	c_3.setAttribute("src","images/c_o.svg");
+	b2.removeAttribute("style");
+	b2.setAttribute("style","background-image:url(images/banner2.jpg);");
+	}
+function click_c3(){
+	c_1.removeAttribute("src");
+	c_1.setAttribute("src","images/c_o.svg");
+	c_2.removeAttribute("src");
+	c_2.setAttribute("src","images/c_o.svg");
+	c_3.removeAttribute("src");
+	c_3.setAttribute("src","images/c.svg");
+	b2.removeAttribute("style");
+	b2.setAttribute("style","background-image:url(images/banner3.jpg);");
+	}
+function run(){
+	setTimeout(click_c1, 2000);
+	setTimeout(click_c2, 4000);
+	setTimeout(click_c3, 6000);
+	}
+setInterval(run, 8000);

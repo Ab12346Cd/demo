@@ -151,8 +151,8 @@
 	/*background-color:#F0F;*/
 	width:1343px;
 	height:442px;
-	background-image:url(../images/banner.jpg);
 	margin-left:-7px;
+	background-image:url(../images/banner.jpg);
 	}
 #b2_icon1_cover{
 	width:290px;
@@ -266,9 +266,11 @@
 #change_1{
 	padding-top:15px;
 	margin-left:625px;
+	cursor:pointer;
 	}
 #change_2,#change_3{
 	padding-top:15px;
+	cursor:pointer;
 	}
 #change_s{
 	/*background-color:#666;*/
