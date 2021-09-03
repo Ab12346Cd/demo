@@ -62,138 +62,138 @@ change_2.addEventListener("click", click_c2, false);
 change_3.addEventListener("click", click_c3, false);
 
 function mOver_b1_5_2() {
-   icon1.classList.add("hidden");
-   icon1_c.classList.remove("hidden");
-   icon1_c.classList.add("show");
-   b2_icon1_cover.classList.remove("hidden");
-   b2_icon1_cover.classList.add("show");
-   b2_change.setAttribute("style","margin-top:320px;");
-   b1_5_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
+  icon1.classList.add("hidden");
+  icon1_c.classList.remove("hidden");
+  icon1_c.classList.add("show");
+  b2_icon1_cover.classList.remove("hidden");
+  b2_icon1_cover.classList.add("show");
+  b2_change.setAttribute("style","margin-top:320px;");
+  b1_5_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
 }
 function mOut_b1_5_2() {
-   icon1.classList.remove("hidden");  
-   icon1_c.classList.remove("show");
-   icon1_c.classList.add("hidden");
-   b2_icon1_cover.classList.remove("show");
-   b2_icon1_cover.classList.add("hidden");
-   b2_change.setAttribute("style","margin-top:340px;");
-   b1_5_2.removeAttribute("style");
+  icon1.classList.remove("hidden");  
+  icon1_c.classList.remove("show");
+  icon1_c.classList.add("hidden");
+  b2_icon1_cover.classList.remove("show");
+  b2_icon1_cover.classList.add("hidden");
+  b2_change.setAttribute("style","margin-top:340px;");
+  b1_5_2.removeAttribute("style");
 }
 function mOver_b1_6_2() {
-   icon2.classList.add("hidden");
-   icon2_c.classList.remove("hidden");
-   icon2_c.classList.add("show");
-   b2_icon2_cover.classList.remove("hidden");
-   b2_icon2_cover.classList.add("show");
-   b2_change.setAttribute("style","margin-top:320px;");
-   b1_6_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
+  icon2.classList.add("hidden");
+  icon2_c.classList.remove("hidden");
+  icon2_c.classList.add("show");
+  b2_icon2_cover.classList.remove("hidden");
+  b2_icon2_cover.classList.add("show");
+  b2_change.setAttribute("style","margin-top:320px;");
+  b1_6_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
 }
 function mOut_b1_6_2() {
-   icon2.classList.remove("hidden");  
-   icon2_c.classList.remove("show");
-   icon2_c.classList.add("hidden");
-   b2_icon2_cover.classList.remove("show");
-   b2_icon2_cover.classList.add("hidden");
-   b2_change.setAttribute("style","margin-top:340px;");
-   b1_6_2.removeAttribute("style");
+  icon2.classList.remove("hidden");  
+  icon2_c.classList.remove("show");
+  icon2_c.classList.add("hidden");
+  b2_icon2_cover.classList.remove("show");
+  b2_icon2_cover.classList.add("hidden");
+  b2_change.setAttribute("style","margin-top:340px;");
+  b1_6_2.removeAttribute("style");
 }
 function mOver_b1_7_2() {
-   icon3.classList.add("hidden");
-   icon3_c.classList.remove("hidden");
-   icon3_c.classList.add("show");
-   b2_icon3_cover.classList.remove("hidden");
-   b2_icon3_cover.classList.add("show");
-   b2_change.setAttribute("style","margin-top:320px;");
-   b1_7_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
+  icon3.classList.add("hidden");
+  icon3_c.classList.remove("hidden");
+  icon3_c.classList.add("show");
+  b2_icon3_cover.classList.remove("hidden");
+  b2_icon3_cover.classList.add("show");
+  b2_change.setAttribute("style","margin-top:320px;");
+  b1_7_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
 }
 function mOut_b1_7_2() {
-   icon3.classList.remove("hidden");  
-   icon3_c.classList.remove("show");
-   icon3_c.classList.add("hidden");
-   b2_icon3_cover.classList.remove("show");
-   b2_icon3_cover.classList.add("hidden");
-   b2_change.setAttribute("style","margin-top:340px;");
-   b1_7_2.removeAttribute("style");
+  icon3.classList.remove("hidden");  
+  icon3_c.classList.remove("show");
+  icon3_c.classList.add("hidden");
+  b2_icon3_cover.classList.remove("show");
+  b2_icon3_cover.classList.add("hidden");
+  b2_change.setAttribute("style","margin-top:340px;");
+  b1_7_2.removeAttribute("style");
 }
 function mOver_b1_8_2() {
-   icon4.classList.add("hidden");
-   icon4_c.classList.remove("hidden");
-   icon4_c.classList.add("show");
+  icon4.classList.add("hidden");
+  icon4_c.classList.remove("hidden");
+  icon4_c.classList.add("show");
 }
 function mOut_b1_8_2() {
-   icon4.classList.remove("hidden");  
-   icon4_c.classList.remove("show");
-   icon4_c.classList.add("hidden");
+  icon4.classList.remove("hidden");  
+  icon4_c.classList.remove("show");
+  icon4_c.classList.add("hidden");
 }
 function mOver_b1_9_2() {
-   icon5.classList.add("hidden");
-   icon5_c.classList.remove("hidden");
-   icon5_c.classList.add("show");
-   b2_icon4_cover.classList.remove("hidden");
-   b2_icon4_cover.classList.add("show");
-   b2_change.setAttribute("style","margin-top:320px;");
-   b1_9_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
+  icon5.classList.add("hidden");
+  icon5_c.classList.remove("hidden");
+  icon5_c.classList.add("show");
+  b2_icon4_cover.classList.remove("hidden");
+  b2_icon4_cover.classList.add("show");
+  b2_change.setAttribute("style","margin-top:320px;");
+  b1_9_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
 }
 function mOut_b1_9_2() {
-   icon5.classList.remove("hidden");  
-   icon5_c.classList.remove("show");
-   icon5_c.classList.add("hidden");
-   b2_icon4_cover.classList.remove("show");
-   b2_icon4_cover.classList.add("hidden");
-   b2_change.setAttribute("style","margin-top:340px;");
-   b1_9_2.removeAttribute("style");
+  icon5.classList.remove("hidden");  
+  icon5_c.classList.remove("show");
+  icon5_c.classList.add("hidden");
+  b2_icon4_cover.classList.remove("show");
+  b2_icon4_cover.classList.add("hidden");
+  b2_change.setAttribute("style","margin-top:340px;");
+  b1_9_2.removeAttribute("style");
 }
 function mOver_b1_10_2() {
-   icon6.classList.add("hidden");
-   icon6_c.classList.remove("hidden");
-   icon6_c.classList.add("show");
-   b2_icon5_cover.classList.remove("hidden");
-   b2_icon5_cover.classList.add("show");
-   b2_change.setAttribute("style","margin-top:320px;");
-   b1_10_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
+  icon6.classList.add("hidden");
+  icon6_c.classList.remove("hidden");
+  icon6_c.classList.add("show");
+  b2_icon5_cover.classList.remove("hidden");
+  b2_icon5_cover.classList.add("show");
+  b2_change.setAttribute("style","margin-top:320px;");
+  b1_10_2.setAttribute("style","background-color:#FFC20E;color:#FFF;font-weight:bold;");
 }
 function mOut_b1_10_2() {
-   icon6.classList.remove("hidden");  
-   icon6_c.classList.remove("show");
-   icon6_c.classList.add("hidden");
-   b2_icon5_cover.classList.remove("show");
-   b2_icon5_cover.classList.add("hidden");
-   b2_change.setAttribute("style","margin-top:340px;");
-   b1_10_2.removeAttribute("style");
+  icon6.classList.remove("hidden");  
+  icon6_c.classList.remove("show");
+  icon6_c.classList.add("hidden");
+  b2_icon5_cover.classList.remove("show");
+  b2_icon5_cover.classList.add("hidden");
+  b2_change.setAttribute("style","margin-top:340px;");
+  b1_10_2.removeAttribute("style");
 }
 function click_c1(){
-	c_1.removeAttribute("src");
-	c_1.setAttribute("src","images/c.svg");
-	c_2.removeAttribute("src");
-	c_2.setAttribute("src","images/c_o.svg");
-	c_3.removeAttribute("src");
-	c_3.setAttribute("src","images/c_o.svg");
-	b2.removeAttribute("style");
-	b2.setAttribute("style","background-image:url(images/banner.jpg);");
+  c_1.removeAttribute("src");
+  c_1.setAttribute("src","images/c.svg");
+  c_2.removeAttribute("src");
+  c_2.setAttribute("src","images/c_o.svg");
+  c_3.removeAttribute("src");
+  c_3.setAttribute("src","images/c_o.svg");
+  b2.removeAttribute("style");
+  b2.setAttribute("style","background-image:url(images/banner.jpg);");
 	}
 function click_c2(){
-	c_1.removeAttribute("src");
-	c_1.setAttribute("src","images/c_o.svg");
-	c_2.removeAttribute("src");
-	c_2.setAttribute("src","images/c.svg");
-	c_3.removeAttribute("src");
-	c_3.setAttribute("src","images/c_o.svg");
-	b2.removeAttribute("style");
-	b2.setAttribute("style","background-image:url(images/banner2.jpg);");
+  c_1.removeAttribute("src");
+  c_1.setAttribute("src","images/c_o.svg");
+  c_2.removeAttribute("src");
+  c_2.setAttribute("src","images/c.svg");
+  c_3.removeAttribute("src");
+  c_3.setAttribute("src","images/c_o.svg");
+  b2.removeAttribute("style");
+  b2.setAttribute("style","background-image:url(images/banner2.jpg);");
 	}
 function click_c3(){
-	c_1.removeAttribute("src");
-	c_1.setAttribute("src","images/c_o.svg");
-	c_2.removeAttribute("src");
-	c_2.setAttribute("src","images/c_o.svg");
-	c_3.removeAttribute("src");
-	c_3.setAttribute("src","images/c.svg");
-	b2.removeAttribute("style");
-	b2.setAttribute("style","background-image:url(images/banner3.jpg);");
+  c_1.removeAttribute("src");
+  c_1.setAttribute("src","images/c_o.svg");
+  c_2.removeAttribute("src");
+  c_2.setAttribute("src","images/c_o.svg");
+  c_3.removeAttribute("src");
+  c_3.setAttribute("src","images/c.svg");
+  b2.removeAttribute("style");
+  b2.setAttribute("style","background-image:url(images/banner3.jpg);");
 	}
 function run(){
-	setTimeout(click_c1, 2000);
-	setTimeout(click_c2, 4000);
-	setTimeout(click_c3, 6000);
+  setTimeout(click_c1, 2000);
+  setTimeout(click_c2, 4000);
+  setTimeout(click_c3, 6000);
 	}
 setInterval(run, 8000);
