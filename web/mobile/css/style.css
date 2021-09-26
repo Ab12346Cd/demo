@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+.ver{
+  float:left;
+  display:inline;
+  height:auto;
+  font-family:"微軟正黑體";
+	}
+#container{
+	padding-left:30px;
+	font-size:36px;
+	}
+#a_1{
+	padding-top:30px;
+	height:97px;
+	width:956px;
+	/*background-color:#CCC;*/
+	}
+#a_11{
+	padding-right:30px;
+	}
+#a_12{
+	padding-top:8px;
+	}
+#a_13{
+	width:155px;
+	}
+#search{
+	width:80px;
+	}
+#a_15{
+	width:86px;
+	height:80px;
+	background-image:url(../images/add.svg);
+	background-repeat:no-repeat;
+	margin-left:30px;
+	background-size:80%;
+	background-size:75px;
+	}
+#a_2{
+	height:10px;
+	}
+#a_3{
+	width:956px;
+	height:235px;
+	/*background-color:#FF0;*/
+	}
+#a_32{
+	padding-left:30px;
+	padding-top:5px;
+	}
+#b1{
+	width:454px;
+	}
+#b2{
+	width:466px;
+	}
+#a_4{
+	height:12px;
+	}
+#a_5{
+	/*background-color:#CCC;*/
+	}
+#a_6,#a_8,a_10{
+	height:20px;
+	}
+#a_7{
+	padding-left:56px;
+	font-size:40px;
+	font-weight:bold;
+	}
+#b3{
+	width:958px;
+	}
+#map{
+	width:861px;
+	padding-left:38px;
+	}
+#a_end{
+	width:932px;
+	height:173px;
+	background-color:#818183;
+	margin-left:-37px;
+	color:#FFF;
+	padding-left:73px;
+	padding-top:23px;
+	}
+a{
+	text-decoration:underline;
+	cursor:pointer;
+	}
+#menu{
+	width:81px;
+	}
+#logo{
+	width:465px;
+	}
