@@ -53,7 +53,7 @@ function resize(){
 	a_7.setAttribute("style","padding-left:"+Math.round(56*change)+"px;font-size:"+Math.round(40*change)+"px");
 	b3.setAttribute("style","width:"+Math.round(958*change)+"px");
 	map.setAttribute("style","width:"+Math.round(861*change)+"px;padding-left:"+Math.round(38*change)+"px");
-	a_end.setAttribute("style","width:"+Math.round(932*change)+"px;margin-left:"+Math.round(-37*change)+"px;padding-left:"+Math.round(73*change)+"px");
+	a_end.setAttribute("style","width:"+Math.round(932*change)+"px;margin-left:"+Math.round(-37*change)+"px;padding-left:"+Math.round(73*change)+"px;height:"+Math.round(173*change)+"px;padding-top:"+Math.round(23*change)+"px");
 	menu.setAttribute("style","width:"+Math.round(81*change)+"px");
 	logo.setAttribute("style","width:"+Math.round(465*change)+"px");
 	
