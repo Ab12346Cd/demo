@@ -378,7 +378,7 @@ a{
 #t_m{
 	border:0;
 	width:580px;
-	height:58px;
+	height:50px;
 	border-radius:50px;
 	font-size:36px;
 	padding-left:20px;
@@ -459,7 +459,7 @@ a{
 	margin-top:20px;
 	margin-bottom:20px;
 	}
-#time_t{
+#time_t,#t_time1,#t_time2{
 	width:600px;
 	height:50px;
 	font-size:40px;
@@ -481,6 +481,7 @@ a{
 	text-align:center;
 	color:#FFF;
 	margin-bottom:40px;
+	margin-left:320px;
 	}
 #time_end{
 	width:932px;
@@ -510,8 +511,14 @@ a{
 #city{
 	margin-bottom:20px;
 	}
-#apply_phone{
+#apply_phone,#name{
 	font-size:36px;
 	border-radius:5px;
 	border-width:thin;
+	}
+#name,#sex,#apply_t1,#apply_t2{
+	margin-bottom:20px;
+	}
+#t_time2{
+	margin-left:105px;
 	}
