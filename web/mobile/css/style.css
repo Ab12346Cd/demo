@@ -1,5 +1,161 @@
 @charset "utf-8";
 /* CSS Document */
+
+/*test.html*/
+
+body {
+  font-size:36px;
+  font-family:"微軟正黑體";
+  margin:0px;
+  /*background-color:#666;*/
+
+}
+.mobile-wrap {
+  margin: auto;
+  width: 1007px;
+  height: 1392px;
+  overflow: hidden;
+  position: relative;
+  /*box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);立體陰影*/
+}
+.mobile {
+  z-index: 99;
+  color: #fff;
+  height: 100%;
+  padding: 15px;
+  position: relative
+}
+
+.mobile .header {
+  clear: both;
+  overflow: hidden;
+  padding-top: 15px;
+  position:fixed;
+  background-color:#FFF;
+  margin-top:-16px;
+}
+
+.mobile .header>span {
+  font-size: 24px;
+  min-width: 24px
+}
+
+.mobile .header>.title {
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 15px
+}
+
+.mobile .header .pull-left {
+  float: left;
+  display:inline;
+  height:auto;
+  font-family:"微軟正黑體";
+}
+
+.mobile .header .pull-right {
+  float: right
+}
+.mobile .header .ion-ios-search{
+	z-index:999;
+	position:relative;
+}
+
+.mobile .header .ion-ios-arrow-back {
+  min-width: 25px
+}
+
+.mobile .header .ion-ios-navicon>i {
+  height: 1px;
+  width: 20px;
+  margin-top: 5px;
+  background: #fff;
+  position: relative;
+  display: inline-block
+}
+
+.sidebar .sidebar-content,
+.sidebar .sidebar-overlay {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  transition: all .3s ease-in-out 0s
+}
+
+.sidebar .sidebar-overlay {
+  right: 0;
+  opacity: 0;
+  width: 100%;
+  z-index: 999;
+  transform: scale(0);
+  background:rgba(0, 0, 0, .4);           /*主畫面背景顏色*/
+}
+
+.sidebar .sidebar-content {
+  width: 80%;
+  color: #333;
+  padding: 15px;
+  z-index: 9999;
+  background: #fff;
+  transform: translateX(-100%)
+}
+
+.sidebar.active .sidebar-content {
+  transform: translateX(0)
+}
+
+.sidebar.active .sidebar-overlay {
+  opacity: 1;                              /*主畫面菜單出現時背景的透明度*/
+  transform: scale(1)
+}
+
+.sidebar .sidebar-content .top-head .name {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 5px
+}
+
+.sidebar .sidebar-content .top-head .email {
+  font-size: 13px;
+  margin-bottom: 50px
+}
+
+.sidebar .sidebar-content .nav-left>a {
+  color: #333;
+  display: block;
+  padding: 10px 0;
+  line-height: 24px;
+  vertical-align: top;
+  text-decoration: none;
+  /*margin-left:-39px;*/
+  width:500px;
+  height:48px;
+}
+
+.nav-left{
+  padding-left: 20px;
+  line-height: 74px;
+}
+
+.sidebar .sidebar-content .nav-left>a>span {
+  color: #aaa;
+  font-size: 24px;
+  min-width: 40px;
+  display: inline-block
+}
+
+#menu_t{
+	padding-top:5px;
+    padding-left:20px;
+}
+
+#m_close{
+	height:30px;
+}
+
+/*test.html*/
+
 .ver{
   float:left;
   display:inline;
@@ -9,6 +165,7 @@
 #container{
   padding-left:30px;
   font-size:36px;
+  color:#000;
 	}
 #container_0{
   font-size:36px;
@@ -73,6 +230,7 @@
 #a_3{
   width:956px;
   height:235px;
+  margin-top:120px;
 	/*background-color:#FF0;*/
 	}
 #a_32{
@@ -107,13 +265,14 @@
   padding-left:38px;
 	}
 #a_end{
-  width:932px;
+  width:925px;
   height:173px;
   background-color:#818183;
   margin-left:-37px;
   color:#FFF;
   padding-left:73px;
   padding-top:23px;
+  position:fixed;
 	}
 a{
   text-decoration:underline;
